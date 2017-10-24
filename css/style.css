@@ -116,8 +116,7 @@ html{
 	margin-left: 20px;
 }
 .list li{
-	padding: .15rem .1rem;
-    min-height: 0.2rem;
+    min-height: 60px;
     line-height: 60px;
     border-bottom: 1px solid #ccc;
     overflow: auto;
@@ -129,13 +128,13 @@ html{
 .tips{
 	padding-right: 4px;
 	border-right: 1px solid #aaa;
+	min-height: 60px;
 }
 .list span{
 	position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     width: 5em;
     color: #aaa;
+    float: left;
 }
 .list i{
 	color:#e26163;
@@ -144,6 +143,10 @@ html{
 }
 .list section{
 	display: inline-block;
+    line-height: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 /*按钮*/
 .button{
@@ -170,4 +173,13 @@ button{
 	background: #5fc0cd;
 	color:white;
 	border:none;
+}
+.intropart{
+	display: table-cell;
+    vertical-align: middle;
+    line-height: 20px;
+    min-height: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 61px;
 }
