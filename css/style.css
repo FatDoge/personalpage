@@ -182,4 +182,5 @@ button{
     word-wrap: break-word;
     word-break: break-all;
     height: 61px;
+    padding-left: 10px;
 }
